@@ -149,14 +149,14 @@ const magnify = (container, img, src, glass, zoom) => {
   glass.style.backgroundSize = (container.offsetWidth * zoom) + "px " + (container.offsetHeight * zoom) + "px";
   glass.style.position = 'absolute';
   glass.style.border = '3px solid #000';
-  glass.style.borderRadius = '50%';
+  // glass.style.borderRadius = '50%';
   glass.style.cursor = 'wait';
   glass.style.lineHeight = '200px';
   glass.style.textAlign = 'center';
   glass.style.zIndex = '1000';
 
-  glass.style.width = '250px';
-  glass.style.height = '250px';
+  glass.style.width = '360px';
+  glass.style.height = '360px';
   glass.style.top = '-75px';
   glass.style.right = '-85px';
 
